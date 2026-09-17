@@ -28,4 +28,4 @@ jobs:
       - name: Lychee link check
         uses: lycheeverse/lychee-action@v2
         with:
-          args: "**/*.md --fail-if-empty=false"
+          args: "**/*.md"
