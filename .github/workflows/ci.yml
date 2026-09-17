@@ -28,4 +28,4 @@ jobs:
       - name: Lychee link check
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --timeout 10
+          args: --mode markdown --format github --output summary.json --timeout 10 --github-token ${{ secrets.GITHUB_TOKEN }} .
