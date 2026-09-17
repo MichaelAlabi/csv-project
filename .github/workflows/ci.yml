@@ -28,4 +28,5 @@ jobs:
       - name: Lychee link check
         uses: lycheeverse/lychee-action@v2
         with:
-          args: "**/*.md"
+          args: --verbose --no-progress -- '**/*.md'
+          failIfEmpty: false
