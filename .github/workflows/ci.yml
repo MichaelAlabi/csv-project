@@ -28,4 +28,4 @@ jobs:
       - name: Lychee link check
         uses: lycheeverse/lychee-action@v2
         with:
-          args: -- --markdown --timeout 10
+          args: --timeout 10
